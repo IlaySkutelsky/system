@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+  background: linear-gradient(to left, black 35%, white 35%, white 66%, black 66%);
+}
