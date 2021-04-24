@@ -8,6 +8,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: white; */
-  background: linear-gradient(to left, black 35%, white 35%, white 66%, black 66%);
+  background-color: white;
+  /* background: linear-gradient(to left, black 35%, white 35%, white 66%, black 66%); */
 }

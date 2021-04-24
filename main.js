@@ -13,7 +13,6 @@ function setup() {
 
 function draw() {
   // background(255, 10)
-  // translate(width/2, height/2)
   for (let i=0; i<balls.length; i++) {
     let ball = balls[i]
     ball.update()
@@ -51,7 +50,6 @@ function resetBalls() {
   balls = []
   for (let i=0; i<10; i++) {
     for (let j=0; j<15.; j++) {
-      // circle(getX(i), getY(j), 20)
       balls.push(new Ball(getX(i), getY(j), id))
       id++
     }
@@ -74,5 +72,4 @@ function keyTyped(event) {
     console.log("timeBeforeReset");
     timeBeforeReset = 600
   }
-  // return false
 }
